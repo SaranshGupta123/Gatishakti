@@ -1,0 +1,95 @@
+.sor-check-container {
+    width: 100%;
+    background: linear-gradient(rgb(26, 26, 46), rgb(22, 33, 62), rgb(26, 26, 46));
+  
+  }
+  
+  .control-panel {
+    /* background: rgba(255, 255, 255, 0.05) !important; */
+    /* backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2); */
+    padding-left: 15px;
+    padding-right:15px ;
+  }
+  
+  .custom-select,
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-select:focus,
+  .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+  }
+  
+  .custom-button  {
+    background: linear-gradient(45deg, #c22079, #611347);
+    border: none;
+    transition: all 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 0, 179, 0.4);
+  }
+  
+  .output-card .card {
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .output-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .output-card .card-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .output-card .card-body {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .logo2{
+    position: absolute;
+    top: 41px;
+    right: 41px;
+    height: auto;
+    width: 150px;
+  }
+  
+
+
+  @media (min-width: 768px) {
+
+  .dprHeading{
+    margin-top: 5rem;
+  }
+}

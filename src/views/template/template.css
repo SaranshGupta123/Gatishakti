@@ -1,0 +1,28 @@
+#dpr{
+    margin-top: -5px;
+    margin-bottom: 100px;
+    font-size: 34px;
+}
+
+@media (max-width: 900px) {
+  #dpr {
+    margin-top: -3px;
+   font-size: 26px;
+  }
+}
+
+@media (max-height: 933px) {
+  #dpr {
+    margin-top: 60px;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-height: 884px) {
+  #dpr {
+    margin-top: 60px;
+    font-size: 21px;
+    margin-bottom: 0;
+  }
+}

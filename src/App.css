@@ -1,0 +1,7 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(rgb(12, 12, 12), rgb(23, 23, 24), rgb(11, 11, 12));
+  color: #fff;
+}
+
